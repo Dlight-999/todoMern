@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;}
+  /* App.css */
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  background-color: #3a86ff;
+  border: 1px transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: white;
+}
+.taskTable{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 8px;
+   /* Collapse borders between cells */
+}
+
+table tr{
+  border-top: 1px solid #1867e6; /* Apply top border to table rows */
+  border-bottom: 1px solid #1867e6;
+  text-align: center;
+}
